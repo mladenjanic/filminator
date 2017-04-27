@@ -24,6 +24,7 @@ gem 'devise', '~> 4.2', '>= 4.2.1'
 gem 'shrine', '~> 2.6', '>= 2.6.1'
 gem "image_processing"
 gem "mini_magick", ">= 4.3.5"
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
