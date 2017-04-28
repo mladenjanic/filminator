@@ -16,11 +16,29 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
 body {
-	background: #AA4847;
+	background: #000;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
+.jumbotron {
+	background: url('film.jpg');
+	color: #fff;
+	font-size: 1.3em;
+}
+
+.navbar-brand {
+	padding:3px 0 15px 15px;
+}
+
+.navbar-brand img{
+	margin:0 !important;
+}
+.field {
+	width: 100%;
+}
 .review_title {
 	margin: 0 0 20px 0;
 }
